@@ -1,11 +1,12 @@
 %-------------------------
 % Resume in Latex
 % Author : Sourabh Bajaj
-% Revision By: Christian Valera
+% Revision By: Athena Liu
 % License : MIT
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
+
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -14,9 +15,16 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[pdftex,hidelinks]{hyperref}
+%\usepackage[pdftex,hidelinks]{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage{fontawesome}
+\usepackage{xcolor}
+
+
+\usepackage[slantfont,boldfont]{xeCJK}
+\usepackage{fontspec}
+\setCJKmainfont{SimSun}
 
 
 \pagestyle{fancy}
@@ -26,11 +34,11 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.375in}
-\addtolength{\evensidemargin}{-0.375in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+%\addtolength{\oddsidemargin}{-0.375in}
+%\addtolength{\evensidemargin}{-0.375in}
+%\addtolength{\textwidth}{1in}
+%\addtolength{\topmargin}{-.5in}
+%\addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
 
@@ -40,7 +48,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-\vspace{-4pt}\scshape\raggedright\large
+\vspace{4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 %-------------------------
@@ -53,7 +61,7 @@
 
 \newcommand{\resumeItemNoGroup}[1]{
 \item\small{
-{#1 \vspace{-2pt}}
+{#1 \vspace{1pt}}
 }
 }
 
@@ -82,105 +90,152 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-\textbf{\href{https://christianvalera.com/}{\Large Christian Valera}} & \href{mailto:cjvalera@hotmail.com}{\faEnvelope\space cjvalera@hotmail.com} \\
-\href{https://github.com/cjvalera}{\faGithub\space github.com/cjvalera} & 
-\href{https://christianvalera.com/}{\faHome\space christianvalera.com/} \\
-\href{https://linkedin.com/in/cjvalera/}{\faLinkedin\space linkedin.com/in/cjvalera} & 
-\faMobile\space 408-917-0370 \\
+\textbf{{\Large Athena (Xiaohe) LIU}} & \href{https://xiaoheliu.github.io/Athena-Portfolio/}{\faHome\space xiaoheliu.github.io/Athena-Portfolio/} \\
+\href{https://github.com/XiaoheLiu}{\faGithub\space github.com/XiaoheLiu} & \href{mailto:sdathenaliu@gmail.com}{\faEnvelope\space sdathenaliu@gmail.com}
+ \\
+\href{https://linkedin.com/in/athenaliuxh/}{\faLinkedin\space linkedin.com/in/athenaliuxh} &
+\faMobilePhone\space (+1) 778-554-2230 \\
 \end{tabular*}
 
+%--------SUMMARY------------
+\section{Summary}
+\resumeSubHeadingListStart
+\resumeItemNoGroup
+{Ph. D. student in Engineering, seeking internship opportunity in web development or software engineering starting June 2019. }
+\resumeItemNoGroup
+{Focused JavaScript developer, with confidence in object oriented programing and various frameworks, with demonstrated skills in full stack web application development.  }
+\resumeItemNoGroup
+{Independent, self-motivated, always eager to learn and implement new technologies to make life better.}
+\resumeItemNoGroup
+{Experience working in team environment and coordinating tasks among team members.}
+\resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 \section{Education}
 \resumeSubHeadingListStart
 \resumeSubheading
-{California State Polytechnic University, Pomona}{Pomona, CA}
-{Bachelors of Science in Computer Science; GPA: 3.01}{Sept 2012 -- Dec 2016}
-\resumeSubHeadingListEnd
-
-
-%-----------EXPERIENCE-----------------
-\section{Experience}
-\resumeSubHeadingListStart
-
-\resumeSubheading
-{ISBX}{Los Angeles, CA}
-{Full Stack Developer}{May 2017 - Present}
+{Udemy \& FreeCodeCamp}{Online Learning}
+{Certificates}{April 2018 - Present}
 \resumeItemListStart
 \resumeItemNoGroup
-{Create reusable components and services using Angular's Component based architecture.}
-\resumeItemNoGroup
-{Back-end Javascript/Typescript developer building RESTful APIs. Worked with different frameworks such as Angular for front-end, Express and Loopback in the back-end and Mocha for testing.}
-\resumeItemNoGroup
-{Develop new features and designs and responsible for bug-fixes for an internal Redbull iOS app. Collaborate closely with Redbull team in sprint planning, discuss app related issues, and develop robust solutions.}
-\resumeItemNoGroup
-{Tech lead in implementing the redesign of Ribbon, a social networking app based on events. Integrated Foursquare and Facebook API's.}
-\resumeItemNoGroup
-{Migrated QT application to a native Android using MVVM architecture and Data Binding.Ensured compatibility with newer devices while supporting older ones. }
-\resumeItemNoGroup
-{Implemented redesign for The Queen Mary's website and improved their existing CMS built in Processwire, a PHP open source CMS framework.}
-\resumeItemNoGroup
-{Lead developer for multiple iOS projects. Maintained development practices through code review and provide mentorship to other developers.}
-\resumeItemNoGroup
-{Collaborate closely with designers, clients, project managers and developers to build a production ready web and mobile applications in an Agile environment.}
+{\textbf{Courses:} Responsive Web Design Certification, The Web Developer Bootcamp, JavaScript Algorithms and Data Structures, The Ultimate MySQL Bootcamp, Modern React with Redux}
 \resumeItemListEnd
-
 \resumeSubheading
-{ISBX}{Los Angeles, CA}
-{Software Developer Intern}{Feb 2017 - May 2017}
+{University of British Columbia}{Vancouver, BC}
+{Ph.D. in Mechanical Engineering - Thermofluids}{Sept 2017 - Present}
+\resumeSubheading
+{Brown University}{Providence, RI, U.S.A.}
+{Ma.Sc. in Engineering}{Sept 2015 - May 2017}
 \resumeItemListStart
 \resumeItemNoGroup
-{Developed single page application using Angular. Built RESTful APIs using LoopBack framework.}
-\resumeItemNoGroup
-{Worked with Android Data Binding, Retrofit and RxJava libraries in implementing new features to an existing project.}
-\resumeItemNoGroup
-{Participate in daily scrums with in-office and overseas coworkers. Maintained project timelines and developed assigned tasks of current sprint.}
+{\textbf{Courses:} Numerical Solution of Partial Differential Equations, Scientific Programming in C++}
 \resumeItemListEnd
-
-\resumeSubheading
-{California Association Of Realtors}{Los Angeles, CA}
-{IT Intern}{Sept 2016 - Dec 2016}
-\resumeItemListStart
-\resumeItemNoGroup
-{Responds to troubleshooting/tickets and assisted in installation of new hardware.}
-\resumeItemNoGroup
-{Assisted IT Manager through documented reports of web application’s design issues and development errors. Contributed to the evaluation of product’s UI and UX through test cases and interoperability.}
-\resumeItemListEnd
-
-\resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------------
-\section{Projects}
-\resumeSubHeadingListStart
-\resumeSubItem{Edelbrock}
-{An android app that communicates to a proprietary ECU device via bluetooth. Implemented the UI to show data and controls from/to the ECU.}
-\resumeSubItem{The Queen Mary (\textit{queenmary.com})}
-{An iconic ship attraction website redesign using PHP. Key member in building the CMS using Processwire. }
-\resumeSubItem{MexCocina Cafe (\textit{mexcocinacafe.com})}
-{Responsive and mobile-friendly website built using Wordpress.}
-\resumeSubItem{Asteriods Clone}
-{An arcade shooter game made with Unity engine using C\# for Windows.}
-\resumeSubItem{Minecraft World}
-{Developed a Minecraft like environment using OpenGL with Lightweight Java Game Library(LWJGL). Rendering a random textured cube world using Simplex Noise.}
-
 \resumeSubHeadingListEnd
 
 %--------PROGRAMMING SKILLS------------
 \section{Programming Skills}
 \resumeSubHeadingListStart
-\resumeSubItem{Programming Languages \& Others}
-{Swift, JavaScript, Java, TypeScript, HTML, CSS, PHP, SQL}
-\resumeSubItem{Tools, Libraries \& Frameworks}
-{Angular, ReactJS, Gatsby, Bootstrap, NodeJS, JQuery, Postgres, Processwire}
+\resumeSubItem{Programming Languages}
+{JavaScript (ES5, ES6, ES7), Python, HTML, CSS, SQL, C, C++}
+\resumeSubItem{Libraries \& Frameworks}
+{React.js, Redux,  Node.js, Express.js, jQuery, Semantic UI, Bootstrap}
+\resumeSubItem{Databases}
+{MySQL, MongoDB}
+\resumeSubItem{Others}
+{Git, MATLAB, Unix Shell, \LaTeX}
 \resumeSubHeadingListEnd
 
-%--------PROGRAMMING SKILLS------------
-\section{Activities}
+%-----------Projects-----------------
+\section{Technical Projects}
 \resumeSubHeadingListStart
-\resumeSubItem{INSAN Foundation Volunteer}{An organization that is dedicated to alleviate hunger and poverty in our communities.}
+
+\resumeSubheading
+{百字本 (100-Letter) Baizi Journal App}{} 
+{Self-Initiated Project}{Jan 2019 - Present}
+\resumeItemListStart
+\resumeItemNoGroup
+{Designed and developed a minimalist journal app which prompts user to write a journal with 100 Chinese characters exact every day. I initiated this project based on my journaling habit for the past 10 years, and by developing this app, I aim to share this fun journal format with the world.}
+\resumeItemNoGroup
+{Reached out to a senior developer and collaborated on backend development, built a REST API with Node.js, Express.js and MongoDB, featuring JWT authentication and NoSQL  schema. } 
+\resumeItemNoGroup
+{Independently developed the frontend with React.js and Redux, implemented routing using React Router, and implemented data services using Axios and Redux Thunk.}
+\resumeItemNoGroup
+{Manage deployment to XRCloud in China.}
+\resumeItemListEnd
+
+\resumeSubheading
+{YelpCamp App}{}
+{Course Project}{Nov 2018}
+\resumeItemListStart
+\resumeItemNoGroup
+{Developed a full-stack yelp-like web app for sharing and discovering new campgrounds using Node.js, Express.js, MongoDB and Bootstrap; deployed to Heroku.}
+\resumeItemNoGroup
+{Designed data schema for users, campgrounds and comments; applied data association using Mongoose.}
+\resumeItemNoGroup
+{Implemented user authentication and authorization using Passport.js.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Computational Modeling of High Speed Jet Impingement}{}
+{Research Project}{June - Oct 2018}
+\resumeItemListStart
+\resumeItemNoGroup
+{Developed numerical procedures in C using an open source software named \href{https://codepen.io/sd_athena/pen/jemQaJ}{\emph{Basilisk}}, to simulate high speed liquid jet impingement on a moving surface, providing physical insight to the phenomena that was not observable through experiments.}
+\resumeItemNoGroup
+{Used supercomputing and MPI parallel algorithm to accelerate the computation, reducing the runtime by 99\%. }
+\resumeItemListEnd
+
 \resumeSubHeadingListEnd
 
 
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Lead Teaching Assistant }{Vancouver, BC}
+{Department of Mechanical Engineering, UBC}{Jan 2018 - Present}
+\resumeItemListStart
+\resumeItemNoGroup
+{Create and teach tutorials for 3rd year undergraduate students on the subject of data analysis (MECH 305/306). Tutorial lectures include hands-on data analysis with MATLAB and white board explanation on statistics concepts and textbook problems. } 
+\resumeItemNoGroup
+{Coordinate with 2 professors and 7 other TAs throughout the term to ensure that the tutorial materials are complementary to the rest of the course. Deliver 6 hours of lectures to a class of 20-50 people every other week for 10 weeks.}
+\resumeItemNoGroup
+{First taught this tutorial in 2018 and was invited to teach again as lead TA in 2019 thanks to the good feedbacks from the students and instructors. }
+\resumeItemListEnd
+
+\resumeSubheading
+{Administrative Intern}{Shanghai, China}
+{InnoSpace Startup Incubator}{March - June 2015}
+\resumeItemListStart
+\resumeItemNoGroup
+{Coordinated among 20+ onsite web-oriented startup teams, the administrative staff and external investors, to ensure projects stayed on schedule and stakeholders were informed of project status.}  
+\resumeItemNoGroup
+{Provided administrative support including front-desk reception, schedule management, event planning and social media marketing.}  
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%--------INTERESTS------------
+\section{Other Skills \& Interests}
+\resumeSubHeadingListStart
+\resumeSubItem{Languages }{English (Fluent), Mandarin (Native), French (Conversational), Japanese (Basic)}
+\resumeSubItem{Interests}{Historical Rapier Fencing, Origami, Stamp Carving}
+\resumeSubHeadingListEnd
+
+
+%----------Footer-----------------
+\vspace*{\fill}
+\color{gray}
+\small
+%\titlerule\vspace{5pt}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{{\normalsize Athena (Xiaohe) LIU}} & \href{https://xiaoheliu.github.io/Athena-Portfolio/}{\faHome\space xiaoheliu.github.io/Athena-Portfolio/} \\
+\href{https://github.com/XiaoheLiu}{\faGithub\space github.com/XiaoheLiu} & \href{mailto:sdathenaliu@gmail.com}{\faEnvelope\space sdathenaliu@gmail.com}
+ \\
+\href{https://linkedin.com/in/athenaliuxh/}{\faLinkedin\space linkedin.com/in/athenaliuxh} &
+\faMobilePhone\space (+1) 778-554-2230 \\
+\end{tabular*}
 %-------------------------------------------
 \end{document}
