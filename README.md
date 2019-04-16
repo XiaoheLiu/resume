@@ -1,6 +1,6 @@
 # Athena (Xiaohe) LIU
 
-- Homepage: [xiaoheliu.github.io/Athena-Portfolio/](https://xiaoheliu.github.io/Athena-Portfolio/)
+- Homepage: [athenaliu.space/](https://athenaliu.space/)
 - Github: [github.com/XiaoheLiu](https://github.com/XiaoheLiu)
 - LinkedIn: [linkedin.com/in/athenaliuxh](https://linkedin.com/in/athenaliuxh/)
 - Email: [sdathenaliu@gmail.com](mailto:sdathenaliu@gmail.com)
@@ -8,22 +8,18 @@
 
 ## Summary
 
-- Ph. D. student in Engineering, seeking internship opportunity in web development or software engineering starting June 2019.
-- Focused JavaScript developer, with confidence in object oriented programing and various frameworks, with demonstrated skills in full stack web application development.
+- Ph. D. student in Engineering, seeking internship opportunity in full stack development this summer. 
+- Focused web developer with confidence in frontend development with ReactJS and backend development with Django (python) and NodeJS. 
 - Independent, self-motivated, always eager to learn and implement new technologies to make life better.
 - Experience working in team environment and coordinating tasks among team members.
 
+
 ## Education
 
-#### Udemy & FreeCodeCamp Online Learning
-
-Certificates, _April 2018 - Present_
-
-- Courses: Responsive Web Design Certification, The Web Developer Bootcamp, JavaScript Algorithms and Data Structures, The Ultimate MySQL Bootcamp, Modern React with Redux
 
 #### University of British Columbia Vancouver, BC
 
-Ph.D. in Mechanical Engineering - Thermofluids, _Sept 2017 - Present_
+Ph.D. in Mechanical Engineering - Computational Fluid Mechanics, _Sept 2017 - Present_
 
 #### Brown University Providence, RI, U.S.A.
 
@@ -31,31 +27,36 @@ Ma. Sc. in Engineering, _Sept 2015 - May 2017_
 
 - Courses: Numerical Solution of Partial Differential Equations, Scientific Programming in C++
 
+#### Fudan University, Shanghai, China
+
+Ba. Sc. in Theoretical and Applied Mechanics, _Sept 2011 - July 2015_
+
 ## Programming Skills
 
-- **Programming Languages** : JavaScript (ES5, ES6, ES7), Python, HTML, CSS, SQL, C, C++
-- **Libraries & Frameworks** : React.js, Redux, Node.js, Express.js, jQuery, Semantic UI, Bootstrap
-- **Databases** : MySQL, MongoDB
-- **Others** : Git, MATLAB, Unix Shell, LATEX
+- **Programming Languages** : Python, C++, JavaScript, GraphQL, SQL, HTML, CSS
+- **Libraries & Frameworks** : ReactJS,  Apollo-client, GatsbyJS, NextJS, Redux, Styled Components, Jest, Enzyme, NodeJS, Django
+- **Databases** :  PostgreSQL, MySQL, MongoDB
+- **Others** : Git, MATLAB, Bash, LATEX
 
 ## Technical Projects
 
+#### Handcrafty - Sell \& Shop for Handmade Items
+
+React & GraphQL Project, _Feb - Apr 2019_
+
+- Built a full-stack Etsy-like web app where user can search, sell, edit, add to cart and buy their favorite items.
+- Created a server side rendered frontend with NextJS, and used Apollo-client for fetching/caching data from the GraphQL backend and local state management; Tested the major components using Jest and Enzyme.
+- Designed extensive relational data models including users, items, orders, shopping cart items, and order items; Implemented the data layer on the backend using GraphQL Yoga and Prisma.
+- Developed server side functionalities including JWT authentication, permissions, email password updates, uploading images, and charging credit cards with StripeJS.
+
 #### 百字本 (100-Letter) Baizi Journal App
 
-Self-Initiated Project, _Jan 2019 - Present_
+Self-Initiated Project, _Jan - Feb 2019_
 
 - Designed and developed a minimalist journal app which prompts user to write a journal with 100 Chinese characters exact every day. I initiated this project based on my journaling habit for the past 10 years, and by developing this app, I aim to share this fun journal format with the world.
 - Reached out to a senior developer and collaborated on backend development, built a REST API with Node.js, Express.js and MongoDB, featuring JWT authentication and NoSQL schema.
 - Independently developed the frontend with React.js and Redux, implemented routing using React Router, and implemented data services using Axios and Redux Thunk.
 - Manage deployment to XRCloud in China.
-
-#### YelpCamp App
-
-Course Project, _Nov 2018_
-
-- Developed a full-stack yelp-like web app for sharing and discovering new campgrounds with Node.js, Express.js, MongoDB and Bootstrap; Deployed to Heroku.
-- Designed data schema for users, campgrounds and comments; applied data association using Mongoose.
-- Implemented user authentication and authorization using Passport.js.
 
 #### Computational Modeling of High Speed Jet Impingement
 
@@ -73,7 +74,7 @@ Department of Mechanical Engineering, UBC
 _Vancouver, BC_
 _Jan 2018 - Present_
 
-- Create and teach tutorials for 3rd year undergraduate students on the subject of data analysis (MECH 305/306). Tutorial lectures include hands-on data analysis with MATLAB and white board explanation on statistics concepts and textbook problems.
+- Create and teach tutorials for 3rd year undergraduate students on the subject of statistics and machine learning. Tutorial lectures include hands-on data analysis with MATLAB and white board explanation on statistics concepts and textbook problems. 
 - Coordinate with 2 professors and 7 other TAs throughout the term to ensure that the tutorial materials are complementary to the rest of the course. Deliver 6 hours of lectures to a class of 20-50 people every other week for 10 weeks.
 - First taught this tutorial in 2018 and was invited to teach again as lead TA in 2019 thanks to the good feedbacks from the students and instructors.
 
