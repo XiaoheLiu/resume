@@ -8,14 +8,12 @@
 
 ## Summary
 
-- Ph. D. student in Engineering, seeking internship opportunity in full stack development this summer. 
-- Focused web developer with confidence in frontend development with ReactJS and backend development with Django (python) and NodeJS. 
+- Ph. D. student in Engineering, seeking internship opportunity in full stack development this summer.
+- Focused web developer with confidence in frontend development with ReactJS and backend development with Django (python) and NodeJS.
 - Independent, self-motivated, always eager to learn and implement new technologies to make life better.
 - Experience working in team environment and coordinating tasks among team members.
 
-
 ## Education
-
 
 #### University of British Columbia Vancouver, BC
 
@@ -34,13 +32,13 @@ Ba. Sc. in Theoretical and Applied Mechanics, _Sept 2011 - July 2015_
 ## Programming Skills
 
 - **Programming Languages** : Python, C++, JavaScript, GraphQL, SQL, HTML, CSS
-- **Libraries & Frameworks** : ReactJS,  Apollo-client, GatsbyJS, NextJS, Redux, Styled Components, Jest, Enzyme, NodeJS, Django
-- **Databases** :  PostgreSQL, MySQL, MongoDB
+- **Libraries & Frameworks** : ReactJS, Apollo-client, GatsbyJS, NextJS, Redux, Styled Components, Jest, Enzyme, NodeJS, Django
+- **Databases** : PostgreSQL, MySQL, MongoDB
 - **Others** : Git, MATLAB, Bash, LATEX
 
 ## Technical Projects
 
-#### Handcrafty - Sell \& Shop for Handmade Items
+#### Handcrafty - Sell & Shop for Handmade Items
 
 React & GraphQL Project, _Feb - Apr 2019_
 
@@ -74,7 +72,7 @@ Department of Mechanical Engineering, UBC
 _Vancouver, BC_
 _Jan 2018 - Present_
 
-- Create and teach tutorials for 3rd year undergraduate students on the subject of statistics and machine learning. Tutorial lectures include hands-on data analysis with MATLAB and white board explanation on statistics concepts and textbook problems. 
+- Create and teach tutorials for 3rd year undergraduate students on the subject of statistics and machine learning. Tutorial lectures include hands-on data analysis with MATLAB and white board explanation on statistics concepts and textbook problems.
 - Coordinate with 2 professors and 7 other TAs throughout the term to ensure that the tutorial materials are complementary to the rest of the course. Deliver 6 hours of lectures to a class of 20-50 people every other week for 10 weeks.
 - First taught this tutorial in 2018 and was invited to teach again as lead TA in 2019 thanks to the good feedbacks from the students and instructors.
 
